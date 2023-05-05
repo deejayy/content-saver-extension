@@ -1,0 +1,21 @@
+{
+   "icons": {
+      "128": "icon.png"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "action": {
+      "default_title": "Action Button"
+   },
+   "permissions": [
+      "tabs",
+      "storage",
+      "scripting",
+      "activeTab"
+   ],
+   "description": "Save content for offline search.",
+   "manifest_version": 3,
+   "name": "Content Saver",
+   "version": "0.5.6"
+}
