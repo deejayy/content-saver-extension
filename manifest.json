@@ -12,7 +12,12 @@
       "tabs",
       "storage",
       "scripting",
-      "activeTab"
+      "activeTab",
+      "bookmarks"
+   ],
+   "host_permissions": [
+      "http://*/*",
+      "https://*/*"
    ],
    "description": "Save content for offline search.",
    "manifest_version": 3,
